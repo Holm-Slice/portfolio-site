@@ -1,7 +1,11 @@
-header{
-    text-align: center;
-        padding-top: 10px;
+*{
+    box-sizing: border-box;
+}
 
+.nav{
+    text-align: center;
+    padding: 15px;
+    background-color: antiquewhite;
 }
 
 h1{
@@ -19,6 +23,7 @@ h3{
     padding-top: 10px;
 }
 
+
 .paragraph{
     font-family: fantasy;
     text-align: center;
@@ -30,4 +35,10 @@ h3{
 
 .list{
     display: inline-block;
+}
+
+.footer{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
 }
