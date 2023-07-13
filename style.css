@@ -2,10 +2,13 @@
     box-sizing: border-box;
 }
 
-.nav{
-    text-align: center;
+.navBar, .name, .navBarP{
     padding: 15px;
     background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 h1{
