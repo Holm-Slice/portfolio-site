@@ -31,3 +31,8 @@ h3{
 .list{
     display: inline-block;
 }
+
+img{
+    align-items: center;
+    width: 250px;
+}
