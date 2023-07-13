@@ -1,8 +1,10 @@
+
 * {
     box-sizing: border-box;
 }
 
 .navBar,.name,.navBarP, .nav{
+
     padding: 15px;
     background-color: antiquewhite;
     display: flex;
@@ -27,8 +29,7 @@ h3 {
 }
 
 
-.paragraph,
-.paragraphPortfolio {
+.paragraph{
     font-family: fantasy;
     text-align: center;
 }
@@ -51,4 +52,3 @@ img {
     background-color: antiquewhite;
     padding: 10px;
 }
-
