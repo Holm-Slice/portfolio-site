@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-.navBar,.name,.navBarP, .nav{
+.navBar, .name, .navBarP, .navBarPort{
 
     padding: 15px;
     background-color: antiquewhite;
@@ -29,12 +29,14 @@ h3 {
 }
 
 
-.paragraph{
+.paragraph, .paragraphPortfolio{
     font-family: fantasy;
     text-align: center;
 }
 
-.container {
+
+.container, .containerPort{
+
     text-align: center;
 }
 
