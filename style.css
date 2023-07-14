@@ -62,3 +62,9 @@ footer{
     text-decoration-color: black;
     text-decoration-thickness: 2px;
 }
+
+.footer {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
