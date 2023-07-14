@@ -30,7 +30,13 @@ h3 {
 }
 
 
+<<<<<<< HEAD
 .paragraph{
+=======
+
+.paragraph,
+.paragraphPortfolio {
+>>>>>>> 03d1fc2 (index commit)
     font-family: fantasy;
     text-align: center;
 }
