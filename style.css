@@ -10,7 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -28,8 +29,9 @@ h3 {
     padding-top: 10px;
 }
 
-
-.paragraph{
+.paragraph,
+.paragraphPortfolio {
+>>>>>>> 03d1fc2 (index commit)
     font-family: fantasy;
     text-align: center;
 }
@@ -51,4 +53,9 @@ img {
     text-align: center;
     background-color: antiquewhite;
     padding: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
 }
