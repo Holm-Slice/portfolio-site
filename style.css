@@ -3,7 +3,14 @@
     box-sizing: border-box;
 }
 
-.navBar, .name, .navBarP, .navBarPort{
+html,body{
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar, .name, .navBarP, .navBarPort, .navAbout{
 
     padding: 15px;
     background-color: antiquewhite;
@@ -53,4 +60,54 @@ img {
     text-align: center;
     background-color: antiquewhite;
     padding: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+
+}
+
+.holy-grail header, .holy-grail footer, .hgSideBar, .holy-grail-content {
+    padding: 20px;
+}
+
+.holy-grail header,
+.holy-grail footer{
+    background-color: #faedcd;
+}
+
+.hgSideBar{
+    background-color: #e9edc9
+}
+
+/* flexbox */
+
+.holy-grail{
+    min-height: 100vh;
+}
+
+.holy-grail, .holy-grail-body{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.holy-grail-content{
+    flex: 1 1 auto;
+}
+
+.holy-grail-sidebar1{
+    order: -1;
+}
+
+@media (min-width: 768px){
+    .holy-grail-body{
+        flex-direction: row;
+    }
+
+    .hgSideBar{
+        flex-direction: 0 0 260px;
+    }
 }
