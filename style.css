@@ -1,0 +1,56 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.navBar, .name, .navBarP, .navBarPort{
+
+    padding: 15px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.paragraph, .paragraphPortfolio{
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+.container, .containerPort{
+
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+}
+
+img {
+    align-items: center;
+    width: 250px;
+}
+
+.footer {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
