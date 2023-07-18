@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 img{
     align-items: center;
     padding-top: 40px;
@@ -21,6 +22,9 @@ body {
 .navBarP,
 .navBarPort,
 .navAbout {
+=======
+.navBar, .name, .navBarP, .navBarPort{
+>>>>>>> origin
 
     padding: 15px;
     background-color: antiquewhite;
@@ -46,15 +50,23 @@ h3 {
 }
 
 
+<<<<<<< HEAD
 .paragraph,
 .paragraphPortfolio {
+=======
+.paragraph, .paragraphPortfolio{
+>>>>>>> origin
     font-family: fantasy;
     text-align: center;
 }
 
 
+<<<<<<< HEAD
 .container,
 .containerPort {
+=======
+.container, .containerPort{
+>>>>>>> origin
 
     text-align: center;
 }
