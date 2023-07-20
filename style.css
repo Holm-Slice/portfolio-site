@@ -1,6 +1,7 @@
 
 * {
     box-sizing: border-box;
+    text-decoration: ;
 }
 
 html,body{
@@ -8,6 +9,7 @@ html,body{
     text-align: center;
     margin: 0;
     padding: 0;
+    color: #FFE8AD;
 }
 
 .navBar, .name, .navBarP, .navBarPort, .navAbout{
@@ -65,9 +67,8 @@ img {
 
 .links a{
     text-decoration: none;
-    color: black;
+    color: #FFE8AD;
     padding-left: 10px;
-
 }
 
 .holy-grail header, .holy-grail footer, .hgSideBar, .holy-grail-content {
@@ -76,11 +77,11 @@ img {
 
 .holy-grail header,
 .holy-grail footer{
-    background-color: #faedcd;
+    background-color: #1982C4;
 }
 
 .hgSideBar{
-    background-color: #e9edc9
+    background-color: #A4B8C4
 }
 
 /* flexbox */
@@ -112,4 +113,57 @@ img {
         flex-direction: 0 0 260px;
         padding: 25px;
     }
+}.holy-grail-content{
+    background: #A4B8C4;
 }
+
+/* .shape-5 {
+    background: white;
+}
+
+.shape-5 div {
+    width: 8rem;
+    height: 12rem;
+    background: black;
+    border-radius: 4rem 4rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: .02rem;
+    position: absolute;
+}
+
+.shape-5 div span {
+    background: #1982c4;
+    height: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+
+
+}
+
+.shape-5 div span:nth-child(1) {
+    width: 2.4rem;
+    margin-bottom: 3.3rem;
+    background: #6A4C93;
+}
+
+
+.shape-5 div span:nth-child(2) {
+    width: 3.8rem;
+    margin-bottom: 2.2rem;
+    background: #8AC926;
+}
+
+.shape-5 div span:nth-child(3) {
+    width: 5.4rem;
+    margin-bottom: 1.1rem;
+    background-color: #eeb850;
+}
+
+.shape-5 div span:nth-child(4) {
+    width: 6.6rem;
+    background-color: #FF595E;
+} */
+
