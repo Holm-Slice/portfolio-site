@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    text-decoration: ;
+    text-decoration: none;
 }
 
 html,body{
@@ -12,6 +12,10 @@ html,body{
     color: #FFE8AD;
 }
 
+#navBar{
+
+}
+
 .navBar, .name, .navBarP, .navBarPort, .navAbout{
 
     padding: 15px;
@@ -19,6 +23,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    float: inline-start;
 
 }
 
@@ -167,3 +172,51 @@ img {
     background-color: #FF595E;
 } */
 
+
+/* galler code being added */
+
+div.gallery {
+    margin: 5px;
+    border: 3px solid #ccc;
+    float: center;
+    width: 180px;
+    position: flex;
+    justify-content: center;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.flexbox-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: px;
+    background-color: #032B43;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexboxImage{
+    background-color:#CFCCD6;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    /* margin-left: 10px; */
+
+
+}
