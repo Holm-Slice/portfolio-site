@@ -12,6 +12,41 @@ html,body{
     color: #FFE8AD;
 }
 
+.date {
+    padding: 35px;
+}
+
+.checkboxText {
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+
+article {
+    display: inline-block;
+    /* inline-block will keep borders inline with text */
+    border-style: groove;
+    border-width: 5px;
+    border-color: #1982C4;
+    margin: 30px;
+    padding: 30px;
+    padding-inline: 10px;
+
+}
+
+.container-form{
+    display: inline-block;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #FFE8AD;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+
+}
+
 .navBar, .name, .navBarP, .navBarPort, .navAbout{
 
     padding: 15px;
@@ -234,7 +269,42 @@ div.desc {
 
 }
 
+.logo, .links-contact{
+        display: inline-block;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FFE8AD;
+        padding: 30px;
+        margin: 30px;
+        text-align: center;
+}
+
+.links-contact{
+    padding: 20px;
+}
+
 .logo{
-    width: 70px;
-    padding: 10px;
+    border: 1px solid #ddd;
+        /* Gray border */
+        border-radius: 4px;
+        /* Rounded border */
+        padding: 5px;
+        /* Some padding */
+        width: 75px;
+        /* Set a small width */
+}
+
+.link-font{
+    padding-bottom: 20px;
+}
+
+.date {
+    padding: 25px;
+    margin: 25px;
+}
+
+.spotify{
+    margin: 20px;
+    margin-top: 30px;
+    
 }
