@@ -261,6 +261,7 @@ div.desc {
 
 .flexbox-container{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: auto; /* having it set to 100% will run it the entire lenght of the site auto will cap at footer? */
