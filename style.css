@@ -12,6 +12,10 @@ html,body{
     color: #FFE8AD;
 }
 
+.holy-grail-body{
+    background: linear-gradient(to bottom, #629460, #6D6466);
+}
+
 .date {
     padding: 35px;
 }
@@ -59,7 +63,6 @@ article {
     top: 0;
     left: 0;
     width: 100vw; /* stretches to full length of site*/
-
 }
 
 h1 {
@@ -133,6 +136,10 @@ img {
     background-color: #1982C4;
 }
 
+/* .holy-grail footer{
+    display: flex;
+} */
+
 .hgSideBar{
     background-color: #A4B8C4
 }
@@ -151,10 +158,13 @@ img {
 
 .holy-grail-content{
     flex: 1 1 auto;
+    background: linear-gradient(to bottom, #1982C4, #ddd);
 }
 
 .holy-grail-sidebar1{
     order: -1;
+    background: linear-gradient(to bottom, #1982C4, #ddd);
+    
 }
 
 @media (min-width: 768px){
@@ -165,10 +175,12 @@ img {
     .hgSideBar{
         flex-direction: 0 0 260px;
         padding: 25px;
+        background: linear-gradient(to bottom, #1982C4, #ddd);
     }
-}.holy-grail-content{
+
+/* }.holy-grail-content{
     background: #A4B8C4;
-}
+} */
 
 /* .shape-5 {
     background: white;
@@ -251,22 +263,22 @@ div.desc {
     display: flex;
     align-items: center;
     width: 100%;
-    height: px;
+    height: auto; /* having it set to 100% will run it the entire lenght of the site auto will cap at footer? */
     background-color: #032B43;
     flex-wrap: wrap;
-    align-items: center;
+
 }
 
 .flexboxImage{
-    background-color:#CFCCD6;
-    width: 200px;
-    height: 200px;
+    display: flex;
+    align-items: center;
+    /* background-color:#CFCCD6; */
+    width: 375px;
+    /* height: 200px; */
     text-align: center;
-    padding: 30px;
-    margin: 40px;
+    padding: 05px;
+    margin: 30px;
     /* margin-left: 10px; */
-
-
 }
 
 .logo, .links-contact{
@@ -306,5 +318,4 @@ div.desc {
 .spotify{
     margin: 20px;
     margin-top: 30px;
-    
-}
+}}
